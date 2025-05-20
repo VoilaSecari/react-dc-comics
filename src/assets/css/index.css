@@ -1,0 +1,42 @@
+/* GENERALE */
+
+img {
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+* {
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+header .container {
+  padding: 0.3rem;
+}
+
+.container {
+  max-width: 1080px;
+  height: 30px;
+  margin: 0 auto;
+
+  /* flexbox */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* debug */
+  /* background-color: red; */
+}
+
+.navbar-links {
+  display: flex;
+  font-size: 0.5rem;
+}
+
+.navbar-links li {
+  padding: 0.5rem;
+}
