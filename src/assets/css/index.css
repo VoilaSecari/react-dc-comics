@@ -81,3 +81,35 @@ main h2 {
   color: white;
   margin: 0;
 }
+
+.options {
+  height: 8rem;
+  background-color: #0476f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.buy-options {
+  max-width: 1080px;
+  display: flex;
+  align-items: center;
+
+  gap: 5rem;
+}
+
+.options-button {
+  display: flex;
+  align-items: center;
+}
+
+.options-button img {
+  height: 3rem;
+  padding-right: 0.5rem;
+}
+
+.options h4 {
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: white;
+}
